@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Мой персональный блог`,
-    author: `Kyle`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `jinv.ru - Мой персональный блог`,
+    author: `injashkin`,
+    description: `Блог о веб программировании`,
+    //siteUrl: `http://jinv.ru/`,
     social: {
       twitter: `kylemathews`,
     },
