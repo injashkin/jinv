@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `jinv.ru - Мой персональный блог`,
+    title: `jinv.ru`,
     author: `injashkin`,
     description: `Блог о веб программировании`,
     //siteUrl: `http://jinv.ru/`,
