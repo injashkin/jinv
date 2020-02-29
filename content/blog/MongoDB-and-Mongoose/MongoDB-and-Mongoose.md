@@ -1,10 +1,7 @@
 ---
 title: Основы MongoDB и Mongoose
-
+date: 2020-01-08
 ---
-
-date: 08-01-2020
-
 
 ## Введение в MongoDB и Mongoose
 

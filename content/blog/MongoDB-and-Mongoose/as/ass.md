@@ -4,7 +4,7 @@ title: ass
 description: 
 ---
 
-date: "2020-01-18T22:40:32.169Z"
+date: 2020-01-18
 
 1. Конечная точка API является `GET [project_url]/api/timestamp/:date_string?`
 

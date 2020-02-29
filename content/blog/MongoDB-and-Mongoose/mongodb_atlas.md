@@ -1,3 +1,7 @@
+---
+title: Облачный сервис MongoDB Atlas
+---
+
 ## Использование MongoDB Atlas для размещения бесплатного экземпляра mongodb для ваших проектов
 
 MongoDB Atlas - это глобальный облачный сервис баз данных для современных приложений. С помощью MongoDB Atlas вы можете развернуть полностью управляемую базу данных MongoDB на таких облачных сервисах, как [AWS](https://aws.amazon.com/ru/), [Azure](https://azure.microsoft.com/ru-ru/) или [GCP](https://cloud.google.com/). MongoDB Atlas позволяет создавать быстрее и тратить меньше времени на управление базой данных. 
