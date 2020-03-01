@@ -1,6 +1,6 @@
 ---
 title: Руководство по Gatsby
-date: 2020-02-02
+date: 2020-02-06
 ---
 
 <a name="part0"></a>
