@@ -1,18 +1,18 @@
 ---
 title: Сокращатель URL на JavaScript
+description: Микросервис, сокращающий URL
+date: 2020-03-01
 ---
 
-## Микросервис, сокращающий URL
+Данная статья является моим учебным заданием на [FreeCodeCamp](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/url-shortener-microservice).
 
-Данная статья является моим учебным проектом на сайте [FreeCodeCamp](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/url-shortener-microservice).
-
-Задание: 
+## Задание
 
 Нужно создать JavaScript приложение полного цикла, которое функционально похоже на это: https://thread-paper.glitch.me/.
 
-Работа над этим проектом будет включать в себя написание кода на Glitch. После завершения этого проекта нужно скопировать свой публичный url Glitch (главную страницу вашего приложения) на [этот экран](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/url-shortener-microservice), чтобы протестировать его! По желанию можyj написать свой проект на другой платформе, но он должен быть публично виден для тестирования.
+Работа над этим проектом будет включать в себя написание кода на Glitch. После завершения этого проекта нужно скопировать свой публичный url Glitch (главную страницу вашего приложения) на [эту страницу](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/url-shortener-microservice). По желанию можно написать свой проект на другой платформе, но он должен быть публично виден для тестирования.
 
-Запустите этот проект на Glitch по [этой ссылке](https://glitch.com/edit/#!/remix/clone-from-repo?REPO_URL=https://github.com/freeCodeCamp/boilerplate-project-urlshortener/) или клонируйте [этот репозиторий](https://github.com/freeCodeCamp/boilerplate-project-urlshortener/) на GitHub! Если вы используете Glitch, не забудьте сохранить ссылку на ваш проект в безопасном месте!
+Запустите этот проект на Glitch по [этой ссылке](https://glitch.com/edit/#!/remix/clone-from-repo?REPO_URL=https://github.com/freeCodeCamp/boilerplate-project-urlshortener/) или клонируйте [этот репозиторий](https://github.com/freeCodeCamp/boilerplate-project-urlshortener/) с GitHub!
 
 1. Можно отправить URL-адрес в [project_url]/api/shorturl/new, и получить ответ в виде сокращенного URL-адреса в формате JSON, например: `{"original_url":"www.google.com", "short_url": 1}`
 2. Если передать недопустимый URL-адрес, который не соответствует формату http(s)://www.example.com(/more/routes), то ответ JSON будет содержать ошибку: `{"error":"invalid URL"}`. Подсказка: чтобы убедиться, что отправленный url-адрес указывает на допустимый сайт, можно использовать функцию `dns.lookup(host, cb)` от модуля ядра `dns`.
