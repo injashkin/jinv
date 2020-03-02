@@ -3,7 +3,7 @@ module.exports = {
     title: `jinv.ru`,
     author: `injashkin`,
     description: `Блог о веб программировании`,
-    //siteUrl: `http://jinv.ru/`,
+    siteUrl: `http://jinv.ru/`,
     social: {
       twitter: `kylemathews`,
     },
@@ -62,7 +62,7 @@ module.exports = {
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
-        display: `minimal-ui`,
+        display: `minimal-ui`, //`standalone`, //
         icon: `content/assets/gatsby-icon.png`,
       },
     },
@@ -75,6 +75,6 @@ module.exports = {
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }

@@ -1,6 +1,7 @@
 ---
 title: Основы MongoDB и Mongoose
 date: 2020-01-08
+description: Краткое руководство по работе с базой данных MongoDB с помощью библиотеки Mongoose
 ---
 
 ## Введение в MongoDB и Mongoose
