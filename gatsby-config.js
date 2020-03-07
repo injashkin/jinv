@@ -3,7 +3,7 @@ module.exports = {
     title: `jinv.ru`,
     author: `injashkin`,
     description: `Блог о веб программировании`,
-    siteUrl: `http://jinv.ru/`,
+    siteUrl: `https://jinv.ru/`,
     social: {
       twitter: `kylemathews`,
     },
@@ -76,5 +76,6 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
+    `gatsby-plugin-sitemap`
   ],
 }
