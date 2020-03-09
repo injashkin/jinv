@@ -77,6 +77,19 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
     `gatsby-plugin-sitemap`,
-    'gatsby-plugin-robots-txt'
+    'gatsby-plugin-robots-txt',
+    {
+      resolve: `gatsby-plugin-yandex-metrica`,
+      options: {
+        trackingId: "60672532",
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        trackHash: true,
+
+        // Detailed recordings of user activity on the site: mouse movement, scrolling, and clicks.
+        webvisor: false,
+      },
+    },
   ],
 }
