@@ -315,7 +315,25 @@ assert.typeOf(undefined, 'undefined', 'мы имеем undefined');
 assert.notTypeOf('tea', 'number', 'строки не являются числами');
 ```
 
+## Проверка, является ли объект экземпляром конструктора
 
+`assert.instanceOf(object, constructor, [message])` утверждает, что `object` является экземпляром `constructor`.
+
+```js
+var Tea = function (name) { this.name = name; }
+  , chai = new Tea('chai');
+
+assert.instanceOf(chai, Tea, 'chai является экземпляром tea');
+```
+
+`assert.notInstanceOf(object, constructor, [message])` утверждает, что `object` не является экземпляром `constructor`.
+
+```js
+var Tea = function (name) { this.name = name; }
+  , chai = new String('chai');
+
+assert.notInstanceOf(chai, Tea, 'chai не является экземпляром tea');
+```
 
 
 
