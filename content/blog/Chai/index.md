@@ -335,9 +335,6 @@ var Tea = function (name) { this.name = name; }
 assert.notInstanceOf(chai, Tea, 'chai не является экземпляром tea');
 ```
 
-
-
-
 Есть и другие assert'ы, например: `.isNaN()`, `.isBoolean()`, и многие другие. Почти все assert'ы в библиотеке chai имеют свой отрицательный аналог - например: `.isNotBoolean()`. Более полная информация по API assert'ам находится [здесь](https://www.chaijs.com/api/assert/).
 
 
