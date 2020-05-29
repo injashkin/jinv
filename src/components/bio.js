@@ -25,14 +25,15 @@ const Bio = () => {
         siteMetadata {
           author
           social {
-            twitter
+            twitter,
+            vkontakte
           }
         }
       }
     }
   `)
 
-  const { author } = data.site.siteMetadata
+  const { author, social } = data.site.siteMetadata
   return (
     <div
       style={{
@@ -54,13 +55,16 @@ const Bio = () => {
         }}
       />
       <p>
-        Автор <strong>{author}</strong>.
-        {/* 
-        {` `}        
+        Автор <strong>{author}</strong>.        
+        {` `}  
+        {/*      
         <a href={`https://twitter.com/${social.twitter}`}>
           You should follow him on Twitter
         </a>      
         */}
+        <a href={`https://vk.com/${social.vkontakte}`}>
+          VKontakte
+        </a>  
       </p>
     </div>
   )
