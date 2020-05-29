@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: `https://jinv.ru/`,
     social: {
       twitter: `i_jashkin`,
+      vkontakte: `i.jashkin`,
     },
   },
   plugins: [
